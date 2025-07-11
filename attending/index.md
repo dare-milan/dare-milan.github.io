@@ -8,7 +8,9 @@ We are aiming to gather a group of maximum 30 motivated and enthusiastic master'
 
 Participants need to fill in an application form – the link on the right. We will select participants based on the screening of a motivation statement, transcripts, and curriculum vitae. Accepted participants will be invited to join and register for the Summer School.
 
-Accepted participants eligible for an Erasmus+ grant will need to then register their mobility via a dedicated Erasmus+ mobility site. The rest of the participants will directly receive a link to the payment site. There is no application fee.
+Accepted participants eligible for an Erasmus+ grant will need to then register their mobility via a dedicated Erasmus+ mobility site. 
+
+### **[👉 Click here to register and (optionally) book accommodation](https://conference.fct.unl.pt/event/24/)**
 
 ### How much does it cost?
 
@@ -19,9 +21,11 @@ Accepted participants eligible for an Erasmus+ grant will need to then register 
 
 #### Accommodation  
 
-All rooms are 2-person (breakfast in included) at [WOT Costa da Caparica](https://www.wotels.com/costa-da-caparica/wot-costa-da-caparica/)
-- **Shared room (same gender): € 270 per person**
-
+There are multiple shared rooms options (same gender) all with breakfast included at [WOT Costa da Caparica](https://www.wotels.com/costa-da-caparica/wot-costa-da-caparica/):
+- **2-person room: € 250 per person for five nights**
+- **3-person room: € 192 per person for five nights**
+- **4-person room: € 173 per person for five nights**
+  
 #### Total Package Costs
 
 <table border="1" cellspacing="2" cellpadding="2">
@@ -38,7 +42,7 @@ All rooms are 2-person (breakfast in included) at [WOT Costa da Caparica](https:
 </tr>
 <tr>
 <td>Registration + shared room&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
-<td>&euro; 670&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
+<td>&euro; 650 (2-person room), &euro; 592 (3-person room), or &euro; 573 (4-person room) &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -46,7 +50,7 @@ All rooms are 2-person (breakfast in included) at [WOT Costa da Caparica](https:
 
 <blockquote>
   <p><strong>Registration is free for Erasmus+ students</strong><br>
-  <em>They pay only € 270 if they choose shared accommodation</em></p>
+  <em>They pay only the cost of the shared accommodation</em></p>
 </blockquote>
 
 ## Venue
