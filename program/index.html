@@ -103,7 +103,7 @@ Note: The program may still change.
 
 <h2>Lecturers and Topics</h2>
 <ul>
-<li>Nuno Pregui&ccedil;a - The Quest for &ldquo;Optimal&rdquo; Conflict Resolution</li>
+<li>Nuno Pregui&ccedil;a - The Quest for &ldquo;Optimal&rdquo; Conflict Resolution
   <ul>
     <li> In this lecture we focus on the problem of conflict resolution in the context of data management systems. 
       We overview different contexts in which conflict resolution is a key issue, 
@@ -111,14 +111,33 @@ Note: The program may still change.
       and techniques used, from simple last-writer-wins registers to CRDTs.  
     </li>
   </ul>
+</li>
 <li>Ragnar Mogk - Protocol RDTs: Programs as Replicated Data</li>
 <li>Burcu Kulahcioglu Ozkan - Testing Distributed System Implementations</li>
 <li>Jos&eacute; Orlando Pereira - Highly Available Analytical Processing</li>
-<li>Alexey Gotsman - Database Isolation Levels</li>
-<li>Guido Salvanechi - Taming the Distributed Systems Beast with Programming Languages</li>
+<li>Alexey Gotsman - Database Isolation Levels
+  <ul>
+    <li> Transaction isolation specifications determine which database states transactions can observe during their execution, and thus, which results queries are allowed to return. This isolation corresponds to the letter "I" in the famous ACID acronym. Different "ACID" systems actually provide a spectrum of isolation levels, which expose the concurrency inside the database to the application programmer to a lesser or greater extent. Examples of such levels are serializability, snapshot isolation, and read committed.
+
+Historically, the definitions of isolation levels have often been ambiguous or tied to database implementation internals. As a result, transaction isolation remains a difficult topic even for seasoned database professionals. This is a problem because understanding the isolation level provided by a given database is necessary to use it correctly. In this tutorial, I will explain the concept of transaction isolation and highlight pitfalls to be wary of when navigating the spectrum of isolation levels while also explaining some of the levels provided by modern database systems. 
+    </li>
+  </ul>
+</li>
+<li>Guido Salvanechi - Taming the Distributed Systems Beast with Programming Languages
+  <ul>
+    <li> Distributed systems are notoriously hard to design, implement, and deploy. 
+      In this talk, we argue that programming languages are a fundamental tool to tackle the 
+      complexity of distributed systems.
+      We first discuss concrete examples of how abstractions offered by programming languages 
+      have been fundamental in solving problems in distributed systems. 
+      Then we discuss recent research results in this area, such as abstractions for data 
+      consistency and behavioral types for distributed applications. 
+      Finally, we outline promising research directions. 
+    </li>
+  </ul>
+</li>
 <li>Kevin De Porre: Verifying RDTs with VeriFx.</li>
 <li>Carlos Baquero: Novel synchronization techniques for CRDTs</li>
-<li>Annette Bieniusa: Broadcast, RDTs, Elixir.</li>
 <li>Tom Van Cutsem: TBD.</li>
   
 </ul>
