@@ -114,7 +114,13 @@ Note: The program may still change.
 </li>
 <li>Ragnar Mogk - Protocol RDTs: Programs as Replicated Data</li>
 <li>Burcu Kulahcioglu Ozkan - Testing Distributed System Implementations</li>
-<li>Jos&eacute; Orlando Pereira - Highly Available Analytical Processing</li>
+<li>Jos&eacute; Orlando Pereira - Highly Available Analytical Processing
+  <ul>
+    <li> 
+      On the one hand, the state-of-the-art in analytical processing depends critically on advanced query optimization and exploiting parallelism in current processor and cluster architectures. On the other hand, highly available data replication as motivated by geo-distribution and local-first software has relied on hiding the complexity of eventual consistent replication in encapsulated data types. Unfortunately, these approaches are not easily combined and limit the performance of analytical processing on highly available data. This talk provides a hands-on introduction to analytical data processing and to Conflict-free Replicated Data Views (CRDVs) as the solution to highly available analytical processing.
+    </li>
+  </ul>
+</li>
 <li>Alexey Gotsman - Database Isolation Levels
   <ul>
     <li> Transaction isolation specifications determine which database states transactions can observe during their execution, and thus, which results queries are allowed to return. This isolation corresponds to the letter "I" in the famous ACID acronym. Different "ACID" systems actually provide a spectrum of isolation levels, which expose the concurrency inside the database to the application programmer to a lesser or greater extent. Examples of such levels are serializability, snapshot isolation, and read committed.
