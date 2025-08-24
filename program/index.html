@@ -108,12 +108,14 @@ Note: The program may still change.
   <ul>
     <li><a href="#nuno-preguica">Nuno Pregui&ccedil;a — The Quest for &ldquo;Optimal&rdquo; Conflict Resolution</a></li>
     <li><a href="#ragnar-mogk">Ragnar Mogk — Protocol RDTs: Programs as Replicated Data</a></li>
-    <li><a href="#burcu-kulahcioglu-ozkan">Burcu Kulahcioglu Ozkan — Testing Distributed System Implementations</a></li>
-    <li><a href="#jose-orlando-pereira">Jos&eacute; Orlando Pereira — Highly Available Analytical Processing</a></li>
-    <li><a href="#alexey-gotsman">Alexey Gotsman — Database Isolation Levels</a></li>
     <li><a href="#guido-salvaneschi">Guido Salvaneschi — Taming the Distributed Systems Beast with Programming Languages</a></li>
-    <li><a href="#kevin-de-porre">Kevin De Porre — Automated Verification of Replicated Data Types with VeriFx</a></li>
+    <li><a href="#jose-orlando-pereira">Jos&eacute; Orlando Pereira — Highly Available Analytical Processing</a></li>   
+    <li><a href="#carlos-baquero">Carlos Baquero — </a></li>
+    <li><a href="#alexey-gotsman">Alexey Gotsman — Database Isolation Levels</a></li>
     <li><a href="#tom-van-cutsem">Tom Van Cutsem — Introduction to Blockchain and Distributed Ledgers</a></li>
+    <li><a href="#burcu-kulahcioglu-ozkan">Burcu Kulahcioglu Ozkan — Testing Distributed System Implementations</a></li>
+    <li><a href="#kevin-de-porre">Kevin De Porre — Automated Verification of Replicated Data Types with VeriFx</a></li>
+    
   </ul>
 </nav>
 
@@ -127,15 +129,20 @@ Note: The program may still change.
     <h5><strong>Ragnar Mogk</strong> — <em>Protocol RDTs: Programs as Replicated Data</em></h5>
     <p>Protocol RDTs extend the concept of replicated data types by treating programs&mdash;not just data&mdash;as the replicated entity. This approach captures both state and behaviour, enabling systems to enforce application-level correctness under weak consistency. The talk presents the foundations of Protocol RDTs and demonstrates how they enable expressive, coordination-free distributed programming.</p>
   </article>
-
-  <article id="burcu-kulahcioglu-ozkan">
-    <h5><strong>Burcu Kulahcioglu Ozkan</strong> — <em>Testing Distributed System Implementations</em></h5>
-    <p>Distributed systems are difficult to design, implement, and test. They must ensure correctness in the concurrent execution of a distributed set of processes, different delivery orderings of asynchronous messages, and in the existence of network and process failures. Unforeseen interleavings of concurrent events and faults can result in expected malfunctioning or outages, and it is important to detect and diagnose them. In this tutorial, we will discuss concurrency and fault-tolerance bugs in distributed systems and introduce state-of-the-art testing techniques for efficiently detecting concurrency and fault-tolerance bugs in distributed system implementations.</p>
+  
+  <article id="guido-salvaneschi">
+    <h5><strong>Guido Salvaneschi</strong> — <em>Taming the Distributed Systems Beast with Programming Languages</em></h5>
+    <p>Distributed systems are notoriously hard to design, implement, and deploy. In this talk, we argue that programming languages are a fundamental tool to tackle the complexity of distributed systems. We first discuss concrete examples of how abstractions offered by programming languages have been fundamental in solving problems in distributed systems. Then we discuss recent research results in this area, such as abstractions for data consistency and behavioral types for distributed applications. Finally, we outline promising research directions.</p>
   </article>
-
+  
   <article id="jose-orlando-pereira">
     <h5><strong>Jos&eacute; Orlando Pereira</strong> — <em>Highly Available Analytical Processing</em></h5>
     <p>State-of-the-art analytical processing relies on advanced query optimisation and parallelism across processors and clusters. Meanwhile, geo-distributed and local-first systems achieve high availability by encapsulating eventual consistency in replicated data types. However, these approaches are difficult to combine, limiting analytical performance on highly available data. This talk offers a hands-on introduction to analytical processing and Conflict-free Replicated Data Views as a solution for enabling high-performance analytics under high availability.</p>
+  </article>
+
+  <article id="carlos-baquero">
+    <h5><strong>Carlos Baquero</strong> — <em></em></h5>
+    <p> </p>
   </article>
 
   <article id="alexey-gotsman">
@@ -144,9 +151,14 @@ Note: The program may still change.
     <p>Historically, the definitions of isolation levels have often been ambiguous or tied to database implementation internals. As a result, transaction isolation remains a difficult topic even for seasoned database professionals. This is a problem because understanding the isolation level provided by a given database is necessary to use it correctly. In this tutorial, I will explain the concept of transaction isolation and highlight pitfalls to be wary of when navigating the spectrum of isolation levels while also explaining some of the levels provided by modern database systems.</p>
   </article>
 
-  <article id="guido-salvaneschi">
-    <h5><strong>Guido Salvaneschi</strong> — <em>Taming the Distributed Systems Beast with Programming Languages</em></h5>
-    <p>Distributed systems are notoriously hard to design, implement, and deploy. In this talk, we argue that programming languages are a fundamental tool to tackle the complexity of distributed systems. We first discuss concrete examples of how abstractions offered by programming languages have been fundamental in solving problems in distributed systems. Then we discuss recent research results in this area, such as abstractions for data consistency and behavioral types for distributed applications. Finally, we outline promising research directions.</p>
+  <article id="tom-van-cutsem">
+    <h5><strong>Tom Van Cutsem</strong> — <em>Introduction to Blockchain and Distributed Ledgers</em></h5>
+    <p>Blockchain and distributed ledger technology (DLT) are key enabling technologies for building open, resilient and secure distributed transaction processing systems. This introductory lecture will provide you with an up-to-date view on both the foundations and open challenges in the field. We will cover: the origins of Blockchain, the cryptographic building blocks of blockchains, how blockchain networks process transactions, consensus in blockchain networks: Proof-of-Work, Proof-of-Stake and BFT Consensus, “permissioned” versus “permissionless” blockchain networks, programming blockchains using smart contracts and latest trends.
+  </article>
+
+  <article id="burcu-kulahcioglu-ozkan">
+    <h5><strong>Burcu Kulahcioglu Ozkan</strong> — <em>Testing Distributed System Implementations</em></h5>
+    <p>Distributed systems are difficult to design, implement, and test. They must ensure correctness in the concurrent execution of a distributed set of processes, different delivery orderings of asynchronous messages, and in the existence of network and process failures. Unforeseen interleavings of concurrent events and faults can result in expected malfunctioning or outages, and it is important to detect and diagnose them. In this tutorial, we will discuss concurrency and fault-tolerance bugs in distributed systems and introduce state-of-the-art testing techniques for efficiently detecting concurrency and fault-tolerance bugs in distributed system implementations.</p>
   </article>
 
   <article id="kevin-de-porre">
@@ -157,8 +169,4 @@ Note: The program may still change.
     Finally, we will transition from the technical underpinnings and pivot our focus to the programmer’s perspective. I will guide you through the process of implementing and verifying conflict-free replicated data types (CRDTs) using VeriFx, offering a hands-on glimpse into the application of automated verification techniques. By the end of this talk, you will have a deeper understanding of the tools and strategies available for ensuring the correctness and reliability of distributed software.</p>
   </article>
 
-  <article id="tom-van-cutsem">
-    <h5><strong>Tom Van Cutsem</strong> — <em>Introduction to Blockchain and Distributed Ledgers</em></h5>
-    <p>Blockchain and distributed ledger technology (DLT) are key enabling technologies for building open, resilient and secure distributed transaction processing systems. This introductory lecture will provide you with an up-to-date view on both the foundations and open challenges in the field. We will cover: the origins of Blockchain, the cryptographic building blocks of blockchains, how blockchain networks process transactions, consensus in blockchain networks: Proof-of-Work, Proof-of-Stake and BFT Consensus, “permissioned” versus “permissionless” blockchain networks, programming blockchains using smart contracts and latest trends.
-  </article>
 </section>
