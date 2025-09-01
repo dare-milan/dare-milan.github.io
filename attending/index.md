@@ -10,8 +10,6 @@ Participants need to fill in an application form – the link on the right. We w
 
 Accepted participants eligible for an Erasmus+ grant will need to then register their mobility via a dedicated Erasmus+ mobility site. 
 
-[### **[👉 Click here to register and (optionally) book accommodation](https://conference.fct.unl.pt/event/24/)**]: #
-
 ### How much does it cost?
 
 #### Registration Fee
