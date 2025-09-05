@@ -11,9 +11,10 @@ layout: home
 
 ### From Caparica (Tryp Hotel & WOT Hotel)
 
-From the hotels, you can walk to the bus stop in Av Dr Aresta Branco 13 and take the 3022 bus (Costa Caparica – Cacilhas). You should exit the bus in Monte Caparica (FCT) Rotunda.
+From the hotels, you can walk to the bus stop in Av Dr Aresta Branco 13 and take the 3022 bus (Costa Caparica – Cacilhas).<br>
+You should exit the bus in Monte Caparica (FCT) Rotunda.
 
-#### Public Transport Information
+### Public Transport Information
 
 [**Ticket information**](https://www.fct.unl.pt/en/international/studying-and-living-portugal/public-transport)
 
