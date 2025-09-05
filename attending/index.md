@@ -13,11 +13,11 @@ layout: home
 
 From the hotels, you can walk to the bus stop in Av Dr Aresta Branco 13 and take the 3022 bus (Costa Caparica – Cacilhas). You should exit the bus in Monte Caparica (FCT) Rotunda.
 
-#### Carris Metropolitana
-[**3022 bus timetable**](https://carrismetropolitana.pt/lines/3022?active_pattern_id=3022_0_1&active_waypoint_stop_id=020637&active_waypoint_stop_sequence=1).
+#### Public Transport Information
 
-Further information is on an FCT NOVA dedicated page that explains how to get to the FCT NOVA university:
-[https://www.fct.unl.pt/en/about-fct/how-get-nova-school-science-and-technology](https://www.fct.unl.pt/en/about-fct/how-get-nova-school-science-and-technology)
+[**Ticket information**](https://www.fct.unl.pt/en/international/studying-and-living-portugal/public-transport)
+
+[**3022 bus timetable**](https://carrismetropolitana.pt/lines/3022?active_pattern_id=3022_0_1&active_waypoint_stop_id=020637&active_waypoint_stop_sequence=1)
 
 ### Address
 Uninova - Building 1
