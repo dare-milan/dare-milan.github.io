@@ -3,7 +3,6 @@ layout: home
 ---
 
 ## Venue: Uninova building 1
-
 ![Uninova](/assets/images/MapaFCT.png)
 
 ### Directions to FCT-NOVA campus
