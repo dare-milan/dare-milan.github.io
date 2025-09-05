@@ -20,9 +20,9 @@ From the hotels, you can walk to the bus stop in Av Dr Aresta Branco 13 and take
 [**3022 bus timetable**](https://carrismetropolitana.pt/lines/3022?active_pattern_id=3022_0_1&active_waypoint_stop_id=020637&active_waypoint_stop_sequence=1)
 
 ### Address
-Uninova - Building 1
-Faculdade de Ciências e Tecnologia da Universidade NOVA de Lisboa (FCT-NOVA) 
-Campus de Caparica, 2829-516 Caparica, Portugal
+Uninova - Building 1<br>
+Faculdade de Ciências e Tecnologia da Universidade NOVA de Lisboa (FCT-NOVA)<br>
+Campus de Caparica, 2829-516 Caparica, Portugal<br>
 
 ***
 
