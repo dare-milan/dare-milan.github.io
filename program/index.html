@@ -142,7 +142,11 @@ Note: The program may still change.
 
   <article id="carlos-baquero">
     <h5><strong>Carlos Baquero</strong> — <em>Efficient Synchronization of Sets and CRDTs</em></h5>
-    <p> </p>
+    <p> 
+      State-based CRDTs can be synchronised by exchanging full states among two replicas. When they share similar content, this leads to the transmission of redundant state.
+By splitting monolithic CRDT states into sets of smaller CRDTs, that can be joined together to reconstruct the original state, we can harvest existing solutions for distributed set reconciliation.
+We show this process and then benchmark different set reconciliation approaches in terms of transmitted data and encoding/decoding speeds.
+    </p>
   </article>
 
   <article id="alexey-gotsman">
