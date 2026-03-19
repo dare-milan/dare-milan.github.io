@@ -1,10 +1,10 @@
-title: DARE 2025
+title: DARE 2026
 description: >-
-  Third ACM Europe Summer School on <br>
-  Distributed and Replicated Environments (DARE 2025)
-subdescription: "From 8 to 12 September | Lisbon | Portugal"
+  Fourth Europe Summer School on <br>
+  Distributed and Replicated Environments (DARE 2026)
+subdescription: "August 31 to September 4 | Milan | Italy"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://dare-lisbon.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://dare-milan.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
 theme: jekyll-theme-conference
 
@@ -105,8 +105,10 @@ conference:
       
       - name: Previous Editions
         menu:
-          # - name: 2025 (current)
-          #   disabled: true
+          - name: 2026 (Current Edition)
+            absolute_url: https://dare-milan.github.io/
+          - name: 2025
+            absolute_url: https://dare-lisbon.github.io/
           - name: 2024
             absolute_url: https://dare-summer.github.io/
           - name: 2023

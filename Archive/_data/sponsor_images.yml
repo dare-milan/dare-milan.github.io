@@ -1,0 +1,6 @@
+images:
+- name: "logo_nova_fct.png"
+  url: "https://www.fct.unl.pt/en"
+
+- name: "nova-lincs.png"
+  url: "https://nova-lincs.di.fct.unl.pt/"
