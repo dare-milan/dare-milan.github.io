@@ -1,43 +1,43 @@
 days:
-- name: Monday 09 September
+- name: Monday 31 August
   abbr: Mo
-  date: 2024-09-09
+  date: 2026-08-31
   talks:
         - name: TBA
           time_start: '09:00'
           time_end: '10:30'
 
 
-- name: Tuesday 10 September
+- name: Tuesday 1 September
   abbr: Tu
-  date: 2024-09-10
+  date: 2026-09-01
   talks:
         - name: TBA
           time_start: '08:30'
           time_end: '10:30'
 
 
-- name: Wednesday 11 September
+- name: Wednesday 02 September
   abbr: Wed
-  date: 2024-09-11
+  date: 2026-09-02
   talks:
         - name: TBA
           time_start: '08:30'
           time_end: '10:30'
 
 
-- name: Thursday 12 September
+- name: Thursday 03 September
   abbr: Thu
-  date: 2024-09-12
+  date: 2026-09-03
   talks:
         - name: TBA
           time_start: '08:30'
           time_end: '10:30'
 
 
-- name: Friday 13 September
+- name: Friday 04 September
   abbr: Fri
-  date: 2024-09-13
+  date: 2026-09-04
   talks:
         - name: TBA
           time_start: '08:30'
