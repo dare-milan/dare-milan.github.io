@@ -47,4 +47,8 @@ Accepted participants eligible for an Erasmus+ grant will need to then register 
 
 ### Accommodation  
 
-Detailed information will be published soon
+There are multiple shared rooms options at [Mio Hostel](https://miohostel.com/) and [Hostel Colours](https://www.hostelcolours.com/?lang=en)
+
+- 2-person room: from € 250 per person for five nights
+- 3-person room: from € 225 per person for five nights
+- 4-person room: from € 200 per person for five nights
