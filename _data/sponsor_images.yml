@@ -2,5 +2,8 @@ images:
 - name: "polimi_bandiera_blu.png"
   url: "https://www.polimi.it/en/"
 
-# - name: "AAA"
-#   url: "https://AAA.com
+- name: "association-for-computing-machinery-logo-png-transparent.png"
+   url: "https://www.acm.org/"
+
+- name: "sigsoft.png"
+   url: "https://www2.sigsoft.org/"

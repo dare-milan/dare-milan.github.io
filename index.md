@@ -2,7 +2,7 @@
 layout: home
 ---
 
-We are pleased to announce the Fourth Europe Summer School on Distributed and Replicated Environments (DARE 2026).
+We are pleased to announce the Fourth ACM Europe Summer School on Distributed and Replicated Environments (DARE 2026).
 DARE is aimed at master's students and PhD students interested in the field of distributed systems and programming languages.
 
 In this edition, we focus on techniques for supporting mixed consistency systems. The school combines theory and practice. Through lectures by active researchers in the field, students will get acquainted with state-of-the-art techniques and the latest research advances. Moreover, in hands-on sessions, students can also develop and experiment with existing frameworks.
@@ -14,7 +14,6 @@ The prospective topics to be covered in this edition include:
 - Verification techniques to ensure adequate consistency
 - Testing and debugging distributed systems
 - Byzantine fault-tolerance
-
 
 DARE is a summer school organized within the Erasmus+ Blended Intensive Programme funded by the European Union. It consists of a one-week course. These in-person sessions are combined with online introductory and closing sessions.
 
