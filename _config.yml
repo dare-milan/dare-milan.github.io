@@ -92,15 +92,15 @@ conference:
 
       - name: Speakers
         relative_url: /speakers/
-      - name: Talks
-        relative_url: /talks/
+      - name: Program
+        relative_url: /program/
       - name: Dates
         relative_url: /important_dates/
       - name: Organization
         relative_url: /organization/
 
-      # - name: Program
-      #   relative_url: /program/
+      # - name: Talks
+      #   relative_url: /talks/
 
       
       - name: Previous Editions
