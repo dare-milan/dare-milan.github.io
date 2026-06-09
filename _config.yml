@@ -86,12 +86,14 @@ conference:
       - name: Attending 
         relative_url: /attending/
 
-      
-      - name: Program
-        relative_url: /program/
+      # Uncomment this when the program is available      
+      # - name: Program
+      #   relative_url: /program/
 
       - name: Speakers
         relative_url: /speakers/
+      - name: Talks
+        relative_url: /talks/
       - name: Dates
         relative_url: /important_dates/
       - name: Organization
@@ -99,8 +101,6 @@ conference:
 
       # - name: Program
       #   relative_url: /program/
-      # - name: Talks
-      #   relative_url: /talks/
 
       
       - name: Previous Editions
