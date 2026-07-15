@@ -34,7 +34,7 @@ Note: The program may still change.
 <th style="width: 60px;">9:30</th>
 <td class="other" style="width: 120px;">Registration &amp; welcome</td>
 <td class="lecture" style="width: 120px;">Tom Van Cutsem</td>
-<td class="handson" style="width: 120px;">Elisa Gonzalez Boix</td>
+<td class="lecture" style="width: 120px;">Carla Ferreira</td>
 <td class="lecture" style="width: 120px;">Fernando Pedone</td>
 <td class="lecture" style="width: 120px;">Guido Salvaneschi</td>
 </tr>
@@ -49,10 +49,10 @@ Note: The program may still change.
 <tr>
 <th style="width: 60px;">11:30</th>
 <td class="lecture" style="width: 120px;">Davide Frey</td>
-<td class="lecture" style="width: 120px;">Elisa Gonzalez Boix</td>
-<td class="lecture" style="width: 120px;">Carla Ferreira</td>
-<td class="handson" style="width: 120px;">Carlos Baquero</td>
-<td class="handson" style="width: 120px;">Ragnar Mogk</td>
+<td class="lecture" style="width: 120px;">Marc Shapiro</td>
+<td class="handson" style="width: 120px;">Carla Ferreira</td>
+<td class="lecture" style="width: 120px;">Carlos Baquero</td>
+<td class="lecture" style="width: 120px;">Ragnar Mogk</td>
 </tr>
 <tr>
 <th style="width: 60px;">13:00</th>
@@ -66,13 +66,13 @@ Note: The program may still change.
 <th style="width: 60px;">14:30</th>
 <td class="lecture" style="width: 120px;">Antonio Fernandez</td>
 <td class="lecture" style="width: 120px;">Claudia-Lavinia Ignat</td>
-<td class="handson" style="width: 120px;">Carla Ferreira</td>
-<td class="handson" style="width: 120px;">Carlos Baquero</td>
+<td class="lecture" style="width: 120px;">Elisa Gonzalez Boix</td>
+<td class="handson" style="width: 120px;">Elisa Gonzalez Boix</td>
 <td class="other" style="width: 120px;">Project Preparation &amp; Closing</td>
 </tr>
 <tr>
 <th style="width: 60px;">16:30+</th>
-<td class="handson" style="width: 120px;">Antonio Fernandez</td>
+<td class="lecture" style="width: 120px;">Antonio Fernandez</td>
 <td class="other" style="width: 120px;">Poster Session</td>
 <td class="social" style="width: 120px;">Social Event</td>
 <td class="social" style="width: 120px;">Dinner</td>
@@ -110,11 +110,12 @@ Note: The program may still change.
     <li><a href="#antonio-fernandez">Antonio Fernandez — A Modular Event-based Framework for Concurrent Object Specification</a></li>
     <li><a href="#claudia-lavinia-ignat">Claudia-Lavinia Ignat — Sequence-Based CRDTs for Collaborative Editing Systems</a></li>
     <li><a href="#carla-ferreira">Carla Ferreira — TBD</a></li>
-    <li><a href="#davide-frey">Davide Frey — TBD</a></li>
+    <li><a href="#davide-frey">Davide Frey — Byzantine Fault Tolerance: From Foundations to Current Perspectives</a></li>
     <li><a href="#elisa-gonzalez-boix">Elisa Gonzalez Boix — TBD</a></li>
     <li><a href="#ragnar-mogk">Ragnar Mogk — Protocol RDTs: Programs as Replicated Data</a></li>
     <li><a href="#fernando-pedone">Fernando Pedone — Is Synchrony Back? A Path to Efficient and Sustainable Replication </a></li>
     <li><a href="#guido-salvaneschi">Guido Salvaneschi — Taming the Distributed Systems Beast with Programming Languages</a></li>
+    <li><a href="#marc-shapiro">Marc Shapiro - Availability vs consistency, from CRDT to Consensus</a></li>
     <li><a href="#tom-van-cutsem">Tom Van Cutsem — Introduction to Blockchain and Distributed Ledgers</a></li>
   </ul>
 </nav>
@@ -141,8 +142,10 @@ Note: The program may still change.
   </article>
 
   <article id="davide-frey">
-    <h5><strong>Davide Frey</strong> — <em>TBD</em></h5>
-    <p>TBD.</p>
+    <h5><strong>Davide Frey</strong> — <em>Byzantine Fault Tolerance: From Foundations to Current Perspectives</em></h5>
+    <p>In 1982, Leslie Lamport and his co-authors introduced the Byzantine Generals Problem as a way to model arbitrary process behavior caused by bugs or malicious actions. Byzantine fault tolerance later received renewed attention with the emergence of blockchain systems, alongside specialized applications in security-critical computing, avionics, and spacecraft design.
+
+This lecture will introduce the foundations of Byzantine fault tolerance, starting with the system models, fault assumptions, and communication primitives on which Byzantine-resilient protocols are built. It will review several fundamental results on reliable broadcast and consensus, highlighting the role of synchrony assumptions and resilience bounds. It will conclude with a research perspective on the use of weak agreement abstractions in Byzantine settings and on how such abstractions may enable more scalable protocols for open and decentralized systems. In particular, it will discuss how recent systems increasingly seek to avoid global agreement when weaker, more localized abstractions are sufficient.</p>
   </article>
 
   <article id="elisa-gonzalez-boix">
@@ -169,6 +172,14 @@ The talk will argue that synchrony is not a relic of textbook models, but an inc
 We first discuss concrete examples of how abstractions offered by programming languages have been fundamental in solving problems in distributed systems. Then we discuss recent research results in this area, such as abstractions for data consistency and behavioral types for distributed applications. Finally, we outlook promising research directions.</p>
   </article>
 
+  <article id="marc-shapiro">
+    <h5><strong>Marc Shapiro</strong> — <em>Availability vs consistency, from CRDT to Consensus</em></h5>
+    <p>Consistency boils down to maintaining data invariants (i.e., specified properties over data items, including derived and replicated items), despite asynchrony, concurrent updates, and failures.  Availability means that the distributed program is not blocked waiting to resolve a consistency conflict.
+This talk revisits the consistency-vs.-availability trade-off of maintaining consistency at the minimal cost in availability.  Our approach is to identify general classes of invariants and the associated minimal-cost availability protocol.  Thus we distinguish: (1) Local invariants that have no availability impact, requiring only that updates converge, e.g., by using CRDTs.  (2) All-or-nothing constraints, requiring additionally that each replica delivers and reads atomically.  (3) Implication constraints, which require causal delivery. These three classes are both available and partition-tolerant.
+The remaining class, (4) TOCTTOU-sensitive updates, requires them to be applied in a total order.  We present CISE, a program analysis that detects harmful TOCTTOU.  We also discuss two opposing approaches to total order: a posteriori, available at the cost of rollback, vs. a priori, consensus-based.  Finally, we consider the stability of updates, i.e. when they are known to be applied at all replicas.</p>
+  </article>
+
+  
   <article id="tom-van-cutsem">
     <h5><strong>Tom Van Cutsem</strong> — <em>Introduction to Blockchain and Distributed Ledgers</em></h5>
     <p>Blockchain and distributed ledger technology (DLT) are key enabling technologies for building open, resilient and secure distributed transaction processing systems. This introductory lecture will provide you with an up-to-date view on both the foundations and open challenges in the field. We will cover: the origins of Blockchain, the cryptographic building blocks of blockchains, how blockchain networks process transactions, consensus in blockchain networks: Proof-of-Work, Proof-of-Stake and BFT Consensus, “permissioned” versus “permissionless” blockchain networks, programming blockchains using smart contracts and latest trends.</p>
