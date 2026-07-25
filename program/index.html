@@ -50,7 +50,7 @@ Note: The program may still change.
 <th style="width: 60px;">11:30</th>
 <td class="lecture" style="width: 120px;">Davide Frey</td>
 <td class="lecture" style="width: 120px;">Marc Shapiro</td>
-<td class="handson" style="width: 120px;">Carla Ferreira</td>
+<td class="lecture" style="width: 120px;">Elisa Gonzalez Boix</td>
 <td class="lecture" style="width: 120px;">Carlos Baquero</td>
 <td class="lecture" style="width: 120px;">Ragnar Mogk</td>
 </tr>
@@ -66,7 +66,7 @@ Note: The program may still change.
 <th style="width: 60px;">14:30</th>
 <td class="lecture" style="width: 120px;">Antonio Fernandez</td>
 <td class="lecture" style="width: 120px;">Claudia-Lavinia Ignat</td>
-<td class="lecture" style="width: 120px;">Elisa Gonzalez Boix</td>
+<td class="handson" style="width: 120px;">Carla Ferreira</td>
 <td class="handson" style="width: 120px;">Elisa Gonzalez Boix</td>
 <td class="other" style="width: 120px;">Project Preparation &amp; Closing</td>
 </tr>
@@ -109,9 +109,9 @@ Note: The program may still change.
     <li><a href="#carlos-baquero">Carlos Baquero — Synchronizing State-Based CRDTs: Two-Party, Multi-Party, and AI-Discovered Protocols</a></li>
     <li><a href="#antonio-fernandez">Antonio Fernandez — A Modular Event-based Framework for Concurrent Object Specification</a></li>
     <li><a href="#claudia-lavinia-ignat">Claudia-Lavinia Ignat — Sequence-Based CRDTs for Collaborative Editing Systems</a></li>
-    <li><a href="#carla-ferreira">Carla Ferreira — TBD</a></li>
+    <li><a href="#carla-ferreira">Carla Ferreira — Verifying Distributed Protocols with TLA+</a></li>
     <li><a href="#davide-frey">Davide Frey — Byzantine Fault Tolerance: From Foundations to Current Perspectives</a></li>
-    <li><a href="#elisa-gonzalez-boix">Elisa Gonzalez Boix — TBD</a></li>
+    <li><a href="#elisa-gonzalez-boix">Elisa Gonzalez Boix — CRDTs from a Programming Language Implementation Perspective</a></li>
     <li><a href="#ragnar-mogk">Ragnar Mogk — Protocol RDTs: Programs as Replicated Data</a></li>
     <li><a href="#fernando-pedone">Fernando Pedone — Is Synchrony Back? A Path to Efficient and Sustainable Replication </a></li>
     <li><a href="#guido-salvaneschi">Guido Salvaneschi — Taming the Distributed Systems Beast with Programming Languages</a></li>
@@ -137,7 +137,7 @@ Note: The program may still change.
   </article>
 
   <article id="carla-ferreira">
-    <h5><strong>Carla Ferreira</strong> — <em>TBD</em></h5>
+    <h5><strong>Carla Ferreira</strong> — <em>Verifying Distributed Protocols with TLA+</em></h5>
     <p>TBD.</p>
   </article>
 
@@ -149,8 +149,11 @@ This lecture will introduce the foundations of Byzantine fault tolerance, starti
   </article>
 
   <article id="elisa-gonzalez-boix">
-    <h5><strong>Elisa Gonzalez Boix</strong> — <em>TBD</em></h5>
-    <p>TBD.</p>
+    <h5><strong>Elisa Gonzalez Boix</strong> — <em>CRDTs from a Programming Language Implementation Perspective</em></h5>
+    <p>Distributed systems replicate data to improve availability, scalability, and fault tolerance. Ensuring that replicas remain eventually consistent is difficult. Current practices advocate for the use of Replicated Data Types (RDTs), which guarantee convergence out-of-the-box, e.g., CRDTs. However, using these RDTs when building distributed systems is often not trivial.
+In this lecture, we look at what it means for developers to utlize CRDTs in their applications. Besides choosing an appropriate RDT design, developers need to consider implementation details such as replica discovery,  memory and network usage,  responsiveness to changes, and security. Moreover, building advanced collaborative applications may require custom RDTs tailored to the application's needs. That implies extending or composing existing RDTs, or designing new ones.
+We will present some work building on pure operation-based CRDTs, a structured framework for designing operation-based CRDTs while avoiding issues related to unbounded metadata growth.  We will discuss extensions to address implementation concerns, focusing on distribution concerns (e.g., how to discover replicas? how to use CRDTs in dynamic networks?) and memory management.  Throughout the lecture, we will also revise some fundamental concepts such as reliable causal broadcasting on which pure op-based CRDTs rely.
+The lecture is complemented by a lab session in which students will get hands-on experience with optimizations using Flec, a TypeScript (pure op-based) CRDT framework that features an open implementation, making it an ideal laboratory for experimenting with novel CRDT designs and implementation techniques.</p>
   </article>
 
   <article id="ragnar-mogk">
