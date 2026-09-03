@@ -109,7 +109,8 @@ Note: The program may still change.
     <li><a href="#carlos-baquero">Carlos Baquero — Synchronizing State-Based CRDTs: Two-Party, Multi-Party, and AI-Discovered Protocols</a></li>
     <li><a href="#antonio-fernandez">Antonio Fernandez — A Modular Event-based Framework for Concurrent Object Specification</a></li>
     <li><a href="#claudia-lavinia-ignat">Claudia-Lavinia Ignat — Sequence-Based CRDTs for Collaborative Editing Systems</a></li>
-    <li><a href="#carla-ferreira">Carla Ferreira — Verifying Distributed Protocols with TLA+</a></li>
+    <li><a href="#carla-ferreira">Carla Ferreira — Ensuring Invariants in Replicated Databases</a></li>
+    <li><a href="#carla-ferreira-practical">Carla Ferreira — Verifying Distributed Protocols with TLA+</a></li>
     <li><a href="#davide-frey">Davide Frey — Byzantine Fault Tolerance: From Foundations to Current Perspectives</a></li>
     <li><a href="#elisa-gonzalez-boix">Elisa Gonzalez Boix — CRDTs from a Programming Language Implementation Perspective</a></li>
     <li><a href="#ragnar-mogk">Ragnar Mogk — Protocol RDTs: Programs as Replicated Data</a></li>
@@ -137,8 +138,13 @@ Note: The program may still change.
   </article>
 
   <article id="carla-ferreira">
-    <h5><strong>Carla Ferreira</strong> — <em>Verifying Distributed Protocols with TLA+</em></h5>
-    <p>TBD.</p>
+    <h5><strong>Carla Ferreira</strong> — <em>Ensuring Invariants in Replicated Databases</em></h5>
+    <p>Replicated databases provide availability and offline operation, but weakly consistent replicas can diverge and violate application invariants. Coordination fixes this at the cost of latency and offline work. This lecture presents two coordination-free alternatives: repairing conflicting operations by adding reparation effects (IPA, VLDB 2019) and discarding one of two conflicting operations under a programmer-defined policy (the No-Op approach, ECOOP 2025), which together guarantee convergence and invariant preservation. We develop both on a running example and compare their strengths and limits.</p>
+  </article>
+
+  <article id="carla-ferreira-practical">
+    <h5><strong>Carla Ferreira</strong> — <em>Verifying Concurrent Protocols with TLA+</em></h5>
+    <p>TLA+ lets you write down what a system is allowed to do, and TLC checks every possible behavior of a given model. A test tries some interleavings; TLC tries all of them, and shows you the exact steps when one breaks your claim. In this hands-on session, participants write a specification for a semaphore, state its mutual-exclusion invariant, and then break it three ways: a non-atomic test-and-set, a lock-ordering deadlock, and starvation. Each time, they read the counterexample TLC produces. The second half looks at safety versus liveness. The same correct semaphore can starve a process under weak fairness but not under strong fairness — liveness only holds relative to a fairness assumption. The session ends by building that fairness into the algorithm itself, instead of assuming it. The same idea sits behind every "eventually" guarantee in distributed systems: eventual delivery, eventual consistency, leader election.</p>
   </article>
 
   <article id="davide-frey">
